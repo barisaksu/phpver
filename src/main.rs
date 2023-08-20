@@ -37,15 +37,11 @@ fn main() {
         for (index, version) in available_versions.iter().enumerate() {
             println!("{}. {}", index + 1, version);
         }
-        // çizgi çek
 
         println!("{}", "-".repeat(50));
-        // Sistemde yüklü olan PHP sürümlerini al
-        // Sistemde yüklü olan PHP sürümlerini al
         println!("Çıkmak için listede olmayan bir sıra numarası girin.");
 
         println!("{}", "-".repeat(50));
-        // Sistemde yüklü olan PHP sürümlerini al
         println!("Hangi sürümü etkinleştirmek istersiniz? (Sıra numarasını girin): ");
         let mut input = String::new();
         std::io::stdin()
